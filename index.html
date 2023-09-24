@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 év</title>
+    <script src="25ev.js"></script>
+</head>
+<body>
+
+
+    <div style="display: flex;">
+<p id="title">Egyszerű Magyar Bérkalkulátor</p>
+<img style="height: 20px; width: 25px; margin-left: 20px; margin-right: 20px;" onclick="ClickEn()" src="gbflag.jpg" alt="British flag">
+<img style="height: 20px; width: 25px; " onclick="ClickHun()" src="magyar.jpg" alt="Hungarian flag">
+<br>
+    </div>
+    <div>
+        <p id="name">Név:</p> <input type="text" id="n"> <br>
+        <p id="grosssalary">Bruttó fizetés:</p> <input type="text" id="s"> <br> 
+        <p id="age">Életkor:</p> <input type="text" id="age"><br> <br>
+        <button id="count" onclick="sal()">Számolj</button>
+        <br> <br>
+        <p id="ptax">Szja</p> <input type="text" id="szja" readonly> <br>
+        <p id="htax">TB Járulék</p> <input type="text" id="tb" readonly> <br>
+        <p id="netsal">Nettó bér:</p> <input type="text" id="net" readonly>
+<br><br><br><br>
+        <p id="u25">*25 év alatt nem kell Szja-t fizetni</p>
+      
+          </div>
+
+
+    
+</body>
+</html>
